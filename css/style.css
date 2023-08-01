@@ -27,12 +27,13 @@ img {
     display: block;
 }
 .container { 
-    max-width: 1158px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 156px;
     margin-right: 156px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .visually-hidden {
     position: absolute;
@@ -167,8 +168,8 @@ footer {
 }
 .list-work {
     background-color: #FFFFFF;
-    display: flex;
-    gap: 24px;
+    /* display: flex; */
+    /* gap: 24px; */
 }
 .names-worker {
     font-weight: 500;
@@ -298,7 +299,8 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    text-align: center;
 }
 .header-container {
     display: flex;
@@ -344,18 +346,23 @@ footer {
     display: flex;
 }
 .work-item {
-    width: 264px;
+    width: 100%;
 }
+.icons-advantages {
+    display: none;
+}
+
 .list-text {
     padding-top: 8px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    /* text-align: center; */
 }
 
 .advantages-work {
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 .services-img {
     display: flex;
@@ -363,6 +370,7 @@ footer {
 }
 .services {
     padding-bottom: 120px;
+    display: none;
 }
 .stuff-items {
     display: flex;
@@ -415,6 +423,7 @@ footer {
     border-radius: 4px;
     margin-bottom: 8px;
     height: 112px;
+    display: none;
 }
 .work-icon-con {
     width: 40px;
