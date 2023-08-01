@@ -1,4 +1,4 @@
-
+/* ----------------------428PX---------------------*/
 @media screen and (min-width: 428px) {
     .container {
         max-width: 426px;
@@ -17,7 +17,19 @@
     .people-list {
         padding: 96px 0;
     }
+    .customers-item-list {
+        width: calc((100% - 16px) / 2);
+    }
+    .customers-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 16px;
+    }
+    .customers-container {
+        padding-top: 96px;
+    }
 }
+/* -----------------------768px---------------------------- */
 @media screen and (min-width: 768px) {
     .container {
         max-width: 766px;
@@ -36,8 +48,17 @@
     .stuff-items {
         gap: 64px 24px;
     }
+    .customers-item-list {
+        max-width: 168px;
+    }
+    .customers-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
     
 }
+/* ---------------------------------1158PX--------------------------------- */
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
@@ -61,5 +82,14 @@
     }
     .stuff-items {
         flex-wrap: nowrap;
+    }
+    .customers-items {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+    .customers-container {
+        padding: 120px 0;
     }
 }
