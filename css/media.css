@@ -28,9 +28,10 @@
     .customers-container {
         padding-top: 96px;
     }
+    
 }
 /* -----------------------768px---------------------------- */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .container {
         max-width: 766px;
     }
@@ -56,7 +57,21 @@
         flex-wrap: wrap;
         gap: 72px 24px;
     }
-    
+    .footer-logo-wrap {
+        text-align: left;
+        margin-right: 24px;
+    }
+    .social-text {
+        text-align: left;
+    }
+    .footer-container {
+        max-width: 552px;
+        justify-content: left;
+    }
+    .subscribe-form {
+        flex-direction: row;
+        gap: 24px;
+    }
 }
 /* ---------------------------------1158PX--------------------------------- */
 @media screen and (min-width: 1158px) {
@@ -91,5 +106,23 @@
     }
     .customers-container {
         padding: 120px 0;
+    }
+    .list-description {
+        font-size: 20px;
+    }
+    .footer-logo-wrap {
+        margin-right: 120px;
+    }
+    .footer-icons {
+        margin-right: 80px;
+    }
+    .footer-text {
+        margin-bottom: 0;
+    }
+    .footer-icons {
+        margin-bottom: 0;
+    }
+    .footer-info {
+        padding: 100px 0;
     }
 }
