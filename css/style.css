@@ -285,7 +285,7 @@ footer {
 }
 .header-adress {
     font-style: normal;
-    
+    display: none;
 }
 
 .header-nav:hover,
@@ -322,14 +322,27 @@ footer {
     gap: 332px;
 }
 .header-menu {
-    display: flex;
+    display: none;
     gap: 40px;
 }
 .address-list {
     display: flex;
     gap: 24px;
 }
-
+.burger-menu {
+    /* margin-left: 249px; */
+    padding: absolute;
+    width: 32px;
+    height: 22px;
+}
+.burger-menu-button {
+    width: 32px;
+    height: 22px;
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    /* border: none; */
+}
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
