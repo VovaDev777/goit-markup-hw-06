@@ -72,6 +72,20 @@
         flex-direction: row;
         gap: 24px;
     }
+    .button-section {
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-bg-tab-min.jpeg);
+    }
+    .order-button {
+        margin-top: 36px;
+    }
+    @media (min-device-pixel-ration: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .button-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-bg-tab2x-min.jpeg);
+    }
+}
 }
 /* ---------------------------------1158PX--------------------------------- */
 @media screen and (min-width: 1158px) {
@@ -125,4 +139,19 @@
     .footer-info {
         padding: 100px 0;
     }
+    .button-section {
+        background-color: #2E2F42;
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-bg-desktop-min.jpeg);
+    }
+    .order-button {
+        margin-top: 48px;
+    }
+    @media (min-device-pixel-ration: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .button-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-bg-desktop2x-min.jpeg);
+    }
+}
 }
