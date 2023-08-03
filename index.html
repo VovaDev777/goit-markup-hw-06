@@ -26,11 +26,6 @@
         <div class="container header-container">
             <nav class="header-navigation">
                 <a href="./index.html" class="first-logo-word link">Web<span class="second-logo-word link">Studio</span></a>
-                <!-- <button class="burger-menu-button">
-                    <svg class="burger-menu" width="32" height="22">
-                        <use href="./images/icons.svg#icon-menu-hamburger"></use>
-                    </svg>
-                </button> -->
                 <ul class="list header-menu">
                     <li class="list-header"><a href="./index.html" class="link list-menu current-color current">Studio</a></li>
                     <li class="list-header"><a href="./portfolio.html" class="link list-menu">Portfolio</a></li>
@@ -43,14 +38,59 @@
                     <li class=""><a href="tel:+110001111111" class="list-adress link">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-            <button class="burger-menu-button">
+            <button type="button" class="burger-menu-button" data-mob-open>
                 <svg class="burger-menu" width="32" height="22">
                     <use href="./images/icons.svg#icon-menu-hamburger"></use>
                 </svg>
             </button>
         </div>
-        <div class="mob-menu">
-
+        <div class="mob-menu is-hidden" data-mob>
+            <button type="button" class="mob-close-btn" data-mob-close>
+                <svg class="close-icon-mob" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+            </button>
+            <ul class="list mob-menu-list">
+                <li class="mob-menu-list-item"><a href="./index.html" class="link mob-link-item current-color">Studio</a></li>
+                <li class="mob-menu-list-item"><a href="./portfolio.html" class="link mob-link-item">Portfolio</a></li>
+                <li class="mob-menu-list-item"><a href="" class="link mob-link-item">Contacts</a></li>
+            </ul>
+            <address class="mob-adress">
+                <ul class="list mob-adress-list">
+                    <li class="mob-item-adress"><a href="tel:+110001111111" class="mob-list-phone link">+11 (000) 111-11-11</a></li>
+                    <li class="mob-item-adress"><a href="mailto:info@devstudio.com" class="mob-list-email link">info@devstudio.com</a></li>
+                </ul>
+            </address>
+            <ul class="list mob-icon-container">
+                <li class="mob-icon-list">
+                    <a href="#" class="mob-icon-con">
+                        <svg class="mob-social-icons" width="24" height="24"> 
+                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-icon-list">
+                    <a href="#" class="mob-icon-con">
+                        <svg class="mob-social-icons" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-icon-list">
+                    <a href="#" class="mob-icon-con">
+                        <svg class="mob-social-icons" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-icon-list">
+                    <a href="#" class="mob-icon-con">
+                        <svg class="mob-social-icons" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+             </ul>
         </div>                                             
     </header>
     <main>
@@ -431,5 +471,6 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

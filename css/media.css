@@ -1,3 +1,9 @@
+
+@media screen and (max-width: 428px) {
+    /* .mob-icon-con {
+        gap: 24px;
+    } */
+}
 /* ----------------------428PX---------------------*/
 @media screen and (min-width: 428px) {
     .container {
@@ -85,7 +91,28 @@
     .button-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-bg-tab2x-min.jpeg);
     }
-}
+    }
+    .burger-menu-button {
+        display: none;
+    }
+    .header-menu {
+        display: flex;
+        justify-content: center;
+    }
+    .header-adress {
+        display: flex;
+    }
+    .address-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .header-navigation {
+        gap: 120px;
+        justify-content: left;
+    }
+    .list-adress {
+        font-size: 12px;
+    }
 }
 /* ---------------------------------1158PX--------------------------------- */
 @media screen and (min-width: 1158px) {
@@ -153,5 +180,16 @@
     .button-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-bg-desktop2x-min.jpeg);
     }
-}
+    }
+    .list-adress {
+        font-size: 16px;
+    }
+    .address-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .header-navigation {
+        gap: 76px;
+        justify-content: left;
+    }
 }
