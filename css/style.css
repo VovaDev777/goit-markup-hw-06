@@ -33,7 +33,7 @@ img {
     margin-left: 156px;
     margin-right: 156px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .visually-hidden {
     position: absolute;
