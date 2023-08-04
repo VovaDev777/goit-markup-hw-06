@@ -19,6 +19,12 @@
     .footer-icons {
         margin-bottom: 0px;
     }
+    .modal {
+        padding: 72px 16px 24px 16px;
+    }
+    .mob-list-phone {
+        font-size: 25px;
+    }
 }
 /* ----------------------428PX---------------------*/
 @media screen and (min-width: 428px) and (max-width: 768px){
@@ -63,7 +69,9 @@
     .footer-icons {
         margin-bottom: 0px;
     }
-    
+    .mob-icon-container {
+        gap: 56px;
+    }
 }
 /* -----------------------768px---------------------------- */
 @media screen and (min-width: 768px){
@@ -148,6 +156,13 @@
     }
     .current::after {
         bottom: 1px;
+    }
+    .solution {
+        font-size: 56px;
+        max-width: 496px;
+    }
+    .list-description {
+        text-align: left;
     }
 }
 /* ---------------------------------1158PX--------------------------------- */
@@ -234,5 +249,11 @@
     }
     .current::after {
         bottom: -4px;
+    }
+    .list-text {
+        font-weight: 400;
+    }
+    .list-description {
+        font-weight: 500;
     }
 }
